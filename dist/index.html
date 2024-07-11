@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="./output.css" rel="stylesheet" />
+    <title>Tailwind</title>
+  </head>
+  <body class="font-body">
+    <div class="bg-gray-50">
+      <nav
+        class="flex items-center justify-between h-24 py-3 px-40 font-semibold text-xl"
+      >
+        <img src="../dist/images/logo.png" alt="" class="w-32" />
+        <ul class="flex justify-end items-center gap-10">
+          <li>
+            <a
+              href="#"
+              class="text-sky-600 ul border-b-2 border-sky-600 hover:border-pink-500"
+              >Home</a
+            >
+          </li>
+          <li><a href="#" class="ul">Services</a></li>
+          <li><a href="#" class="ul"> Pricing</a></li>
+          <li><a href="#" class="ul">Clients</a></li>
+          <li><a href="#" class="ul">News</a></li>
+          <li><a href="#" class="ul">Contact</a></li>
+        </ul>
+        <div>
+          <button class="btn">Sign Up</button>
+          <button class="btn">Log in</button>
+        </div>
+      </nav>
+    </div>
+    <header
+      class="border-t-4 border-gray-100 flex items-center justify-center gap-20 px-64 py-16"
+    >
+      <div class="w-1/2">
+        <img src="../dist/images/header.png" alt="" class="h-96" />
+      </div>
+      <div class="space-y-8 w-1/2 font-sans font-thin">
+        <h2 class="text-3xl">Multipurpose Landing Template</h2>
+        <h1 class="text-5xl font-bold">Beautiflly</h1>
+        <h1 class="text-4xl font-bold">Simple, Code.</h1>
+        <p class="text-xl tracking-wider">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+          similique eveniet modi hic explicabo.
+        </p>
+        <button>
+          <a href="#" class="anchor font-bold">Learn more</a>
+        </button>
+      </div>
+    </header>
+    <div
+      class="flex items-center justify-between gap-5 mt-20 px-64 px-auto mb-20 text-gray-600 py-20"
+    >
+      <div class="flex flex-col items-center space-y-5">
+        <img src="../dist/images/strategy-1.png" alt="" />
+        <h1 class="font-bold text-xl">Strategy</h1>
+        <p class="text-center font-thin text-lg">
+          We Will Work With You To Develop Tailwind Apps
+        </p>
+      </div>
+      <div class="flex flex-col items-center space-y-5">
+        <img src="../dist/images/strategy-2.png" alt="" />
+        <h1 class="font-bold text-xl">Auotmation</h1>
+        <p class="text-center font-thin text-lg">
+          Work Synchronzation And Automated Services
+        </p>
+      </div>
+      <div class="flex flex-col items-center space-y-5">
+        <img src="../dist/images/strategy-3.png" alt="" />
+        <h1 class="font-bold text-xl">Deployment</h1>
+        <p class="text-center font-thin text-lg">
+          Dedicated Servers To Deploy And Test Applications
+        </p>
+      </div>
+      <div class="flex flex-col items-center space-y-5">
+        <img src="../dist/images/strategy-4.png" alt="" />
+        <h1 class="font-bold text-xl">Education</h1>
+        <p class="text-center font-thin text-lg">
+          Stay Informed On All Our Tools And Technologies
+        </p>
+      </div>
+    </div>
+    <div class="flex items-center justify-center gap-20 mb-20">
+      <div>
+        <h1 class="head">Services</h1>
+        <h1 class="font-bold text-5xl mb-5 text-stone-600">Solving Problems</h1>
+        <div class="font-thin text-lg mb-10">
+          <p>This Is A Great Section To Introduce Your</p>
+          <p>Company And Showcase Your Featured Services</p>
+        </div>
+        <button class="button">
+          Website Design <span class="font-bold">+</span>
+        </button>
+        <button class="button">
+          Applications Development <span class="font-bold">+</span>
+        </button>
+      </div>
+      <img src="../dist/images/services-header.png" alt="" class="w-96" />
+    </div>
+    <div class="flex items-center justify-center gap-20 mb-20">
+      <div>
+        <img
+          src="../dist/images/services-sales-header.png"
+          alt=""
+          class="w-96"
+        />
+      </div>
+      <div>
+        <h2 class="text-xl font-semibold text-stone-600">Our Services</h2>
+        <h1 class="font-bold text-5xl my-5 text-stone-600">Sales Growth</h1>
+        <div class="my-5 font-thin text-lg">
+          <p>You Can Talk About Your Secondary Services</p>
+          <p>Here, Or Maybe Promote Your Excellent</p>
+          <p>
+            Customer Service Approach. Always Grap Your Website Visitors
+            Attention
+          </p>
+        </div>
+        <button class="anchor">View Pricing</button>
+      </div>
+    </div>
+    <div>
+      <div class="text-center">
+        <h2 class="font-bold my-3 text-3xl text-stone-600">Pricing</h2>
+        <p class="font-thin text-lg">
+          Offer Multiple Packages Or Monthly Subscriptions? Why Not Showcase
+          Your Featured Price Plans Here, Bold And Beautifully
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-3 gap-20 container px-40 mx-auto my-20 text-center"
+      >
+        <div
+          class="bg-gray-100 h-112 rounded-3xl w-80 mt-8 p-5 hover:shadow-2xl transition ease-linear duration-300"
+        >
+          <h1 class="text-zinc-600 text-5xl">$199</h1>
+          <h2 class="text-sky-500">Basic</h2>
+          <p class="my-4">Starter Plan With All Basics Included</p>
+          <ul class="font-thin space-y-3">
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Core Business System</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Team Management</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bx-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Dual Infrastructure</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bx-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Customized Features</div>
+            </li>
+          </ul>
+          <button class="btn mt-5">Enquire</button>
+        </div>
+
+        <div
+          class="bg-gray-100 rounded-3xl h-128 w-80 p-5 hover:shadow-2xl transition ease-linear duration-300"
+        >
+          <h3 class="text-sky-600 mb-2 text-lg">Popular</h3>
+          <h1 class="text-zinc-600 text-5xl">$499</h1>
+          <h2 class="text-sky-500">Growth</h2>
+          <p class="my-4">The Sensible Option For Growing Companies</p>
+          <ul class="font-thin space-y-3">
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Core Business System</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Team Management</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Dual Infrastructure</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bx-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Customized Features</div>
+            </li>
+          </ul>
+          <button class="btn mt-5">Enquire</button>
+        </div>
+        <div
+          class="bg-gray-100 rounded-3xl w-80 h-112 mt-8 p-5 hover:shadow-2xl transition ease-linear duration-300"
+        >
+          <h1 class="text-zinc-600 text-5xl">$1299</h1>
+          <h2 class="text-sky-500">Corporate</h2>
+          <p class="my-4">EverytingA Global Company Needs</p>
+          <ul class="font-thin space-y-3">
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Core Business System</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Team Management</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Dual Infrastructure</div>
+            </li>
+            <li class="flex items-center justify-center gap-2">
+              <div>
+                <i class="bx bxs-check-circle text-sky-500 text-lg"></i>
+              </div>
+              <div>Customized Features</div>
+            </li>
+          </ul>
+          <button class="btn mt-5">Enquire</button>
+        </div>
+      </div>
+    </div>
+    <div class="bg-blue-900 text-white px-48 py-16 px-auto">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-5xl mb-4 font-bold">Code.</h1>
+          <p class="font-thin text-sm">
+            A Beautiful Landing Page Template By Kareem
+          </p>
+        </div>
+        <div>
+          <h1 class="text-3xl mb-4 font-bold">About</h1>
+          <p class="font-thin text-sm">We Like To Be Business</p>
+        </div>
+        <div>
+          <h1 class="text-3xl mb-4 my-5 font-bold">Contact Us</h1>
+          <div class="flex items-center gap-3">
+            <i class="bx bx-phone-call bx-tada"></i>
+            <p>01142001477</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <i class="bx bx-envelope"></i>
+            <p>kareemsaqr84@gmail.com</p>
+          </div>
+        </div>
+        <div>
+          <h1 class="mb-4 text-3xl font-bold">Social</h1>
+          <i
+            class="bx bxl-twitter text-2xl hover:text-blue-600 transition ease-linear duration-300"
+          ></i>
+          <i
+            class="bx bxl-instagram text-2xl hover:text-pink-600 transition ease-linear duration-300"
+          ></i>
+          <i
+            class="bx bxl-facebook text-2xl hover:text-blue-600 transition ease-linear duration-300"
+          ></i>
+          <i
+            class="bx bxl-linkedin text-2xl hover:text-blue-600 transition ease-linear duration-300"
+          ></i>
+        </div>
+      </div>
+      <div>
+        <p class="mt-10 text-center font-thin text-sm">
+          &copy; 2024 Kareem, All Rights Resereved
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

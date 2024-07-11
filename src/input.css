@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ul {
+  @apply hover:text-pink-500 transition ease-linear duration-200;
+}
+
+.btn {
+  @apply bg-blue-900 py-3 px-5 rounded-full w-fit text-white hover:bg-pink-500 transition ease-linear duration-300;
+}
+
+.anchor {
+  @apply bg-pink-600 text-white py-3 px-8 rounded-full w-fit hover:bg-blue-700 transition ease-linear duration-300;
+}
+
+.button {
+  @apply flex items-center justify-between w-full bg-blue-900 mb-5 text-white py-3 rounded-full px-5 hover:bg-pink-500 transition ease-linear duration-300;
+}
+
+.head {
+  @apply w-fit translate-x-96 -translate-y-20 bg-pink-600 text-white py-3 px-5 font-bold rounded-full text-xl hover:bg-blue-700  transition ease-linear duration-300;
+}
